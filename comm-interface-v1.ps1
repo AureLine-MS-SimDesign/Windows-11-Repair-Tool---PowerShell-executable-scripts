@@ -1,4 +1,4 @@
-Add-Type -AssemblyName PresentationFramework
+﻿Add-Type -AssemblyName PresentationFramework
 
 [xml]$XAML = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -98,5 +98,7 @@ function Show-RestartPrompt {
     [System.Windows.MessageBox]::Show("Wykonano operacje wymagające restartu systemu.`nZalecany jest restart, aby zmiany zostały w pełni zastosowane.",
                                       "Restart wymagany", "OK", "Information")
 }
+
+
 
  
