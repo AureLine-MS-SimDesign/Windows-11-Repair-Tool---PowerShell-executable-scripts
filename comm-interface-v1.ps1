@@ -7,7 +7,7 @@
 <Button Name="btnSFC" Margin="5">
     <Button.Content>
         <TextBlock TextAlignment="Center" FontFamily="Segoe UI" FontSize="14" FontWeight="Bold">
-            <Run Text="SKANUJ SYSTEM W POSZUKIWANIU BŁĘDÓW (SFC/DISM)"/>
+            <Run Text="SKANUJ I NAPRAW SYSTEM (SFC/DISM)"/>
             <LineBreak/>
             <Run Text="Wymagany restart systemu"/>
         </TextBlock>
